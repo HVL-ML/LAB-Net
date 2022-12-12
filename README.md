@@ -5,6 +5,8 @@
 <p style="margin-left:5%"><a href="https://www.hvl.no/om/organisering/fin/institutt-for-datateknologi-elektroteknologi-og-realfag/">Department of Computer Science, Electrical Engineering and Mathematical Sciences</a>, Faculty of Engineering and Science, Western Norway University of Applied Sciences, Bergen, Norway.</p><br>
 <p align="center"><img width=30% src="assets/hvl_logo_en_rgb.png"></p>
 
+> **Note:** The repo is a work in progress. 
+
 ## Introduction
 <center><img width=70% src="assets/austin1_pred_masks.gif"><br>
 <small>The figure show's one of our model's predictions on validation data from an external dataset used for pretraining.</small>
@@ -106,6 +108,8 @@ pip install -e 'semantic_segmentation_augmentations[dev]'
 <br>
 
 # Table of contents
+
+> **12.12.22:** The TOC is a bit outdated. Will be updated. 
 
 ### Data preparation
 | Notebook    |      Description      |

@@ -1,0 +1,15 @@
+name: mapai
+dependencies:
+  - python
+  - pip
+  - ipython
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - git
+  - numpy
+  - matplotlib
+  - pandas
+  - pip:
+    - pip
+    - image_slicer

@@ -2,6 +2,7 @@ from pathlib import Path
 from PIL import Image
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 import skimage
+from constants import *
 
 #### Paths ####
 

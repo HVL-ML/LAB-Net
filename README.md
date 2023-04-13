@@ -5,17 +5,36 @@
 <p style="margin-left:5%"><a href="https://www.hvl.no/om/organisering/fin/institutt-for-datateknologi-elektroteknologi-og-realfag/">Department of Computer Science, Electrical Engineering and Mathematical Sciences</a>, Faculty of Engineering and Science, Western Norway University of Applied Sciences, Bergen, Norway.</p><br>
 <p align="center"><img width=30% src="assets/hvl_logo_en_rgb.png"></p>
 
-> **Note:** The repo is a work in progress. 
 
 ## Introduction
 <center><img width=70% src="assets/austin1_pred_masks.gif"><br>
 <small>The figure show's one of our model's predictions on validation data from an external dataset used for pretraining.</small>
 </center>
 
+## Citing
+
+[S. Kaliyugarasan, and A. S. Lundervold. *LAB-Net: Lidar and aerial image-based building segmentation using U-Nets*. Nordic Machine Intelligence (2023)](https://journals.uio.no/NMI/article/view/10163). 
+
+BibTeX entry:
+
+```bibtex
+@article{kaliyugarasan2022lab,
+  title={{LAB-Net}: Lidar and aerial image-based building segmentation using {U-Nets}},
+  author={Kaliyugarasan, Satheshkumar and Lundervold, Alexander Selvikv{\aa}g},
+  journal={Nordic Machine Intelligence},
+  volume={2},
+  number={3},
+  year={2023}
+}
+```
+
 
 ## Our approach
 
 <img width=80% src="assets/mapai-fig1.png">
+
+See also our team's code in the competiton repo: https://github.com/Sjyhne/MapAI-Competition (*team_hvlml*).
+
 
 _Details TBA_
 
@@ -109,7 +128,7 @@ pip install -e 'semantic_segmentation_augmentations[dev]'
 
 # Table of contents
 
-> **12.12.22:** The TOC is a bit outdated. Will be updated. 
+Note that the TOC is a bit outdated.
 
 ### Data preparation
 | Notebook    |      Description      |

@@ -133,7 +133,7 @@ Note that the TOC is a bit outdated.
 ### Data preparation
 | Notebook    |      Description      |
 |:----------|------|
-|  [00a_prepare_mapai_data.ipynb](nbs/00a_prepare_mapai_data.ipynb)| Loads the MapAI data and computes and stores information about which images the "ground truth" masks indicate have buildings and to what extent. 
+|  [00a_mapai_prepare_data.ipynb](nbs/00a_mapai_prepare_data.ipynb)| Loads the MapAI data and computes and stores information about which images the "ground truth" masks indicate have buildings and to what extent. 
 |  [00b_inria_prepare_data.ipynb](nbs/00b_inria_prepare_data.ipynb)| Loads and extracts images patches from the INRIA dataset used for pretraining 
 
 ### Data cleaning
@@ -143,7 +143,7 @@ Note that the TOC is a bit outdated.
 |  [01b_inspect_diff.ipynb](nbs/1b_inspect_diff.ipynb)| Our filtering process to find mislabeled images is only partially automatic. This notebook contains code for a manual step investigating possible mislabels.
 |  [01c_manual_find_error.ipynb](nbs/01c_manual_find_error.ipynb)| Code for a manual step investigating possible mislabels.
 |  [01d_segmentation_cleaning.ipynb](nbs/01d_segmentation_cleaning.ipynb)| We repeat the above filtering process to discover even more mislabeled data, but this time using a segmentation model. 
-|  [01e_segmentation-pretraining-cleaning.ipynb](nbs/01e_segmentation-pretraining-clearning.ipynb)| Use the pretrained segmentation model to filter mislabeled data 
+|  [01e_segmentation-pretraining-cleaning.ipynb](nbs/01e_segmentation-pretraining-cleaning.ipynb)| Use the pretrained segmentation model to filter mislabeled data 
 
 
 
@@ -152,8 +152,9 @@ Note that the TOC is a bit outdated.
 |:----------|------|
 |  [02a_segmentation-pretraining.ipynb](nbs/02a_segmentation-pretraining.ipynb)| Pretrains our segmentation models on the INRIA dataset described above. 
 |  [02b_segmentation-pretraining-evaluate.ipynb](nbs/02b_segmentation-pretraining-evaluate.ipynb)| Evaluate the pretrained model. Visualize predicted results. 
-|  [02c_segmentation-aerial.ipynb](nbs/02c_segmentation-aerial.ipynb)| Fine-tunes the above model on the MapAI data
-|  [02d_segmentation-lidar.ipynb](nbs/02d_segmentation-lidar.ipynb)| Trains a segmentation model on the lidar data
+|  [02d_segmentation-aerial.ipynb](nbs/02d_segmentation-aerial.ipynb)| Fine-tunes the above model on the MapAI data
+|  [02g_segmentation-aerial-lidar.ipynb](nbs/02g_segmentation-aerial-lidar.ipynb)| Trains a segmentation model on the lidar data
+|  [02j_segmentation_aerial-lidar_create_visualizations_get_info_ensemble.ipynb](nbs/02j_segmentation_aerial-lidar_create_visualizations_get_info_ensemble.ipynb)| 
 
 ### Inference on new data
 | Notebook    |      Description      |
